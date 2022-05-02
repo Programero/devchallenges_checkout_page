@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --primary-black: #333333;
+  --secondary-black: #4e5150;
+  --dark-gray: #4f4f4f;
+  --light-gray: #828282;
+  --orange: #f2994a;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: var(--primary-black);
+}
+
+.container {
+  width: 90vw;
+  margin: 2rem auto;
+}
+
+hr {
+  border-top: 1px solid #bdbdbd;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 29px;
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.page-title {
+  color: var(--secondary-black);
+}
+
+.cart {
+  background: #f2f2f2;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+}
+
+.cart-item {
+  display: flex;
+  color: var(--secondary-black);
+  margin-bottom: 2rem;
+}
+
+.cart-item img {
+  width: 122.75px;
+  height: 124.64px;
+  border-radius: 13px;
+  margin-right: 1rem;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-price-info {
+  display: flex;
+  align-items: center;
+}
+.item-price-info p.discount-price {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--orange);
+  margin-right: 0.5rem;
+}
+
+.item-price-info p.actual-price {
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration-line: line-through;
+}
+
+.quantity-info {
+  border: 1px solid var(--light-gray);
+  border-radius: 12px;
+  width: 122.8px;
+  height: 49.86px;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-info button {
+  background: #e0e0e0;
+  border-radius: 4px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.price-container {
+  margin-top: 5rem;
+}
+
+.additional-price-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: var(--light-gray);
+  padding: 1rem 0rem;
+}
