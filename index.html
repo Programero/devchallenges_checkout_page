@@ -32,122 +32,134 @@
   <body>
     <main class="container">
       <h1 class="page-title">Checkout</h1>
-      <div class="cart">
-        <div class="cart-items">
-          <div class="cart-item">
-            <img src="photo1.png" alt="Vintage backbag" />
-            <div class="item-info">
-              <div class="item-name">
-                <h3>Vintage backbag</h3>
-                <div class="item-price-info">
-                  <p class="discount-price">$54.99</p>
-                  <p class="actual-price"><s>$94.99</s></p>
+      <div class="outer-container">
+        <div class="cart">
+          <div class="cart-items">
+            <div class="cart-item">
+              <img src="photo1.png" alt="Vintage backbag" />
+              <div class="item-info">
+                <div class="item-name">
+                  <h3>Vintage backbag</h3>
+                  <div class="item-price-info">
+                    <p class="discount-price">$54.99</p>
+                    <p class="actual-price"><s>$94.99</s></p>
+                  </div>
+                </div>
+                <div class="quantity-info">
+                  <button class="decrease-quantity">-</button>
+                  <p class="quantity-number">1</p>
+                  <button class="increase-quantity">+</button>
                 </div>
               </div>
-              <div class="quantity-info">
-                <button class="decrease-quantity">-</button>
-                <p class="quantity-number">1</p>
-                <button class="increase-quantity">+</button>
-              </div>
             </div>
-          </div>
-          <div class="cart-item">
-            <img src="photo2.png" alt="Vintage backbag" />
-            <div class="item-info">
-              <div class="-item-name">
-                <h3>Vintage backbag</h3>
-                <div class="item-price-info">
-                  <p class="discount-price">$74.99</p>
-                  <p class="actual-price">$124.99</p>
+            <div class="cart-item">
+              <img src="photo2.png" alt="Vintage backbag" />
+              <div class="item-info">
+                <div class="-item-name">
+                  <h3>Levi Shoes</h3>
+                  <div class="item-price-info">
+                    <p class="discount-price">$74.99</p>
+                    <p class="actual-price">$124.99</p>
+                  </div>
+                </div>
+                <div class="quantity-info">
+                  <button class="decrease-quantity">-</button>
+                  <p class="quantity-number">1</p>
+                  <button class="increase-quantity">+</button>
                 </div>
               </div>
-              <div class="quantity-info">
-                <button class="decrease-quantity">-</button>
-                <p class="quantity-number">1</p>
-                <button class="increase-quantity">+</button>
+            </div>
+            <div class="price-container">
+              <hr />
+              <div class="additional-price-info">
+                <p>Shipping</p>
+                <p>$19</p>
+              </div>
+              <hr />
+              <div class="additional-price-info">
+                <p>Total</p>
+                <p>$148.98</p>
               </div>
             </div>
           </div>
-          <div class="price-container">
-            <hr />
-            <div class="additional-price-info">
-              <p>Shipping</p>
-              <p>$19</p>
+        </div>
+        <div class="form-outer-container">
+          <div class="form-container">
+            <p>Contact information</p>
+            <div class="form-input-container">
+              <label for="email">E-mail</label>
+              <div class="form-input">
+                <i class="material-icons">mail</i>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                />
+              </div>
             </div>
-            <hr />
-            <div class="additional-price-info">
-              <p>Total</p>
-              <p>$148.98</p>
+            <div class="form-input-container">
+              <label for="tel">Phone</label>
+              <div class="form-input">
+                <i class="material-icons">call</i>
+                <input type="tel" id="tel" placeholder="Enter your phone..." />
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="form-container">
-        <p>Contact information</p>
-        <div class="form-input-container">
-          <label for="email">E-mail</label>
-          <div class="form-input">
-            <i class="material-icons">mail</i>
-            <input type="email" id="email" placeholder="Enter your email..." />
-          </div>
-        </div>
-        <div class="form-input-container">
-          <label for="tel">Phone</label>
-          <div class="form-input">
-            <i class="material-icons">call</i>
-            <input type="tel" id="tel" placeholder="Enter your phone..." />
-          </div>
-        </div>
-      </div>
-      <div class="form-container">
-        <p>Shipping address</p>
-        <div class="form-input-container">
-          <label for="name">Full name</label>
-          <div class="form-input">
-            <i class="material-icons">person_filled</i>
-            <input type="text" id="name" placeholder="Your full name.." />
-          </div>
-        </div>
-        <div class="form-input-container">
-          <label for="street">Address</label>
-          <div class="form-input">
-            <i class="material-icons">home</i>
-            <input type="street" id="street" placeholder="Your address.." />
-          </div>
-        </div>
-        <div class="form-input-container">
-          <label for="city">City</label>
-          <div class="form-input">
-            <i class="material-icons">location_city</i>
-            <input type="city" id="city" placeholder="Your city.." />
-          </div>
-        </div>
+          <div class="form-container">
+            <p>Shipping address</p>
+            <div class="form-input-container">
+              <label for="name">Full name</label>
+              <div class="form-input">
+                <i class="material-icons">person_filled</i>
+                <input type="text" id="name" placeholder="Your full name.." />
+              </div>
+            </div>
+            <div class="form-input-container">
+              <label for="street">Address</label>
+              <div class="form-input">
+                <i class="material-icons">home</i>
+                <input type="street" id="street" placeholder="Your address.." />
+              </div>
+            </div>
+            <div class="form-input-container">
+              <label for="city">City</label>
+              <div class="form-input">
+                <i class="material-icons">location_city</i>
+                <input type="city" id="city" placeholder="Your city.." />
+              </div>
+            </div>
 
-        <div class="country-postal">
-          <div class="form-input-container">
-            <label for="country">Country</label>
-            <div class="form-input">
-              <i class="material-icons">location_city</i>
-              <input type="country" id="country" placeholder="Your country.." />
+            <div class="country-postal">
+              <div class="form-input-container">
+                <label for="country">Country</label>
+                <div class="form-input">
+                  <i class="material-icons">location_city</i>
+                  <input
+                    type="country"
+                    id="country"
+                    placeholder="Your country.."
+                  />
+                </div>
+              </div>
+
+              <div class="form-input-container">
+                <label for="zip">Postal</label>
+                <div class="form-input">
+                  <i class="material-icons">location_city</i>
+                  <input type="zip" id="zip" placeholder="Your postal code.." />
+                </div>
+              </div>
+            </div>
+            <div class="declaration">
+              <input type="checkbox" name="save-info" id="save-info" />
+              <label for="save-info">Save this information for next time</label>
             </div>
           </div>
 
-          <div class="form-input-container">
-            <label for="zip">Postal</label>
-            <div class="form-input">
-              <i class="material-icons">location_city</i>
-              <input type="zip" id="zip" placeholder="Your postal code.." />
-            </div>
+          <div class="continue">
+            <button class="continue">Continue</button>
           </div>
         </div>
-        <div class="declaration">
-          <input type="checkbox" name="save-info" id="save-info" />
-          <label for="save-info">Save this information for next time</label>
-        </div>
-      </div>
-
-      <div class="continue">
-        <button class="continue">Continue</button>
       </div>
     </main>
     <footer>
