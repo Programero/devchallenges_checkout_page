@@ -43,7 +43,7 @@
   .cart {
     order: 2;
     height: max-content;
-    width: max-content;
+    flex-shrink: 0;
   }
   .form-outer-container {
     flex-grow: 1;
