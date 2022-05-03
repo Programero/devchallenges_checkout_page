@@ -54,6 +54,7 @@ h3 {
   background: #f2f2f2;
   border-radius: 12px;
   padding: 2rem 1rem;
+  margin-bottom: 3rem;
 }
 
 .cart-item {
@@ -118,6 +119,79 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0rem;
+}
+
+.form-container {
+  margin-bottom: 3rem;
+}
+
+.form-container p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 0.75rem;
+}
+.form-input-container {
+  margin-bottom: 1rem;
+}
+.form-input-container label {
+  display: block;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+.form-input {
+  border: 1px solid var(--light-gray);
+  border-radius: 12px;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.form-input i {
+  font-size: 1.25rem;
+  margin-right: 0.75rem;
+  color: var(--light-gray);
+  width: 20px;
+}
+
+.form-input input:focus {
+  outline: none;
+}
+
+.form-input input::placeholder,
+.form-input input {
+  font-size: 0.75rem;
+  line-height: 15px;
+  font-weight: 600;
+  font-family: var(--main-font);
+  color: var(--light-gray);
+}
+
+.declaration {
+  display: flex;
+  align-items: center;
+}
+
+.declaration label {
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 0.5rem;
+  color: var(--dark-gray);
+}
+
+.continue {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.continue button {
+  display: block;
+  background: #f2994a;
+  border-radius: 12px;
+  width: 166px;
+  height: 54px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 footer p {
