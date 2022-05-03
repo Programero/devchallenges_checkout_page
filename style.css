@@ -164,6 +164,7 @@ h3 {
   font-weight: 600;
   font-family: var(--main-font);
   color: var(--light-gray);
+  width: 100%;
 }
 
 .declaration {
@@ -192,6 +193,12 @@ h3 {
   color: #fff;
   font-size: 16px;
   line-height: 20px;
+}
+
+.country-postal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.5rem;
 }
 
 footer p {
